@@ -19,6 +19,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        //Print out and create the team in the main class.
+
+        ReadingTeamData QB = new ReadingTeamData();
 
 
 

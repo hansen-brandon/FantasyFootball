@@ -18,7 +18,6 @@ class GenerateTeam {
 
 
     public GenerateTeam() {
-        generateTeam();
 
     }
 
@@ -159,18 +158,10 @@ class GenerateTeam {
 
     }
 
-    public void generateTeam() {
-        System.out.println("Your randomly generated team is: ");
-        System.out.println("-------------------------------");
-        System.out.println("QB: " + randomQB());
-        System.out.println("RB1: " + randomRB());
-        System.out.println("RB2: " + randomRB());
-        System.out.println("WR1: " + randomWR());
-        System.out.println("TE: " + randomTE());
-        System.out.println("FLEX: " + randomFlex());
-        System.out.println("K: " + randomK());
-        System.out.println("DEF: " + randomDEF());
 
+    public String toString() {
+        return "QB: " + randomQB() + "\nRB1: " + randomRB() + "\nRB2: " + randomRB() + "\nWR1: " + randomWR() + "\nWR2: " +
+                randomWR() + "\nTE: " + randomTE() + "\nFLEX: " + randomFlex() + "\nK: " + randomK() + "\nDEF: " + randomDEF();
     }
 
 

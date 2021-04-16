@@ -9,6 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
         GenerateTeam newTeam = new GenerateTeam();
+        System.out.println(newTeam);
+        GUI GUI = new GUI();
 
 
     }

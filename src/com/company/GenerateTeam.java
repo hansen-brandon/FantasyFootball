@@ -24,7 +24,7 @@ class GenerateTeam {
 
     public String randomQB() {
         try {
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Desktop\\QB Data.csv")));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Documents\\Programming\\IntelliJ\\FantasyFootball\\QB Data.csv")));
             randomQB = new ArrayList<>();
             for (String line : lines) {
                 if (line.contains(",")) {
@@ -44,7 +44,7 @@ class GenerateTeam {
 
     public String randomRB() {
         try {
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Desktop\\RB Data.csv")));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Documents\\Programming\\IntelliJ\\FantasyFootball\\RB Data.csv")));
             randomRB = new ArrayList<>();
             for (String line : lines) {
                 if (line.contains(",")) {
@@ -65,7 +65,7 @@ class GenerateTeam {
 
     public String randomWR() {
         try {
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Desktop\\WR Data.csv")));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Documents\\Programming\\IntelliJ\\FantasyFootball\\WR Data.csv")));
             randomWR = new ArrayList<>();
             for (String line : lines) {
                 if (line.contains(",")) {
@@ -86,7 +86,7 @@ class GenerateTeam {
 
     public String randomTE() {
         try {
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Desktop\\TE Data.csv")));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Documents\\Programming\\IntelliJ\\FantasyFootball\\TE Data.csv")));
             randomTE = new ArrayList<>();
             for (String line : lines) {
                 if (line.contains(",")) {
@@ -107,7 +107,7 @@ class GenerateTeam {
 
     public String randomK() {
         try {
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Desktop\\K Data.csv")));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Documents\\Programming\\IntelliJ\\FantasyFootball\\K Data.csv")));
             randomK = new ArrayList<>();
             for (String line : lines) {
                 if (line.contains(",")) {
@@ -128,7 +128,7 @@ class GenerateTeam {
 
     public String randomDEF() {
         try {
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Desktop\\DEF Data.csv")));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("C:\\Users\\brans\\Documents\\Programming\\IntelliJ\\FantasyFootball\\DEF Data.csv")));
             randomDEF = new ArrayList<>();
             for (String line : lines) {
                 if (line.contains(",")) {

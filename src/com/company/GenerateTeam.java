@@ -3,11 +3,16 @@ import java.util.*;
 
 public class GenerateTeam {
 
+
     public GenerateTeam() {
 
     }
 
     public void createTeam(){
+
+    }
+
+    public void printTeam(){
 
     }
 

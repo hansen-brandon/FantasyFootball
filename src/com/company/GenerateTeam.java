@@ -1,4 +1,9 @@
 package com.company;
+/*
+The way that I am generating teams within this program is I created a method for each position that reads in each position data and stores the data in ArrayLists.
+After reading in each position data into ArrayList's I created a new Random object in each method that selects a random player from the specific position ArrayList.
+each method returns a random player from that given position.
+ */
 
 import java.io.*;
 import java.nio.file.Files;
@@ -60,6 +65,7 @@ class GenerateTeam {
 
         Random rand = new Random();
         return (randomRB.get(rand.nextInt(randomRB.size())));
+
 
     }
 
@@ -147,6 +153,12 @@ class GenerateTeam {
 
     }
 
+
+    /*
+    Random Flex is a method that combines all of the elements in randomWR and RondomRB and stores all of those elements in a new ArrayList.
+    A flex position in fantasy football can either be a wide receiver or a running back, which is why this method was necessary when
+    generating a team.
+     */
     public String randomFlex() {
 
 
@@ -158,7 +170,7 @@ class GenerateTeam {
 
     }
 
-
+    //toString Method.
     public String toString() {
         return "QB: " + randomQB() + "\nRB1: " + randomRB() + "\nRB2: " + randomRB() + "\nWR1: " + randomWR() + "\nWR2: " +
                 randomWR() + "\nTE: " + randomTE() + "\nFLEX: " + randomFlex() + "\nK: " + randomK() + "\nDEF: " + randomDEF();
